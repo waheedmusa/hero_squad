@@ -1,5 +1,5 @@
 body{
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-image: url("/images/hero1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,4 +16,15 @@ background-color: darkgrey;
     border-radius: 5px;
     margin-top: 10%;
     font-family: 'Poppins', sans-serif;
+}
+.badge1{
+    line-height: 3;
+    font-size: 20px;
+        margin-left: 22%;
+        margin-top: 12%;
+}
+.badge2{
+    line-height: 3;
+    font-size: 20px;
+        margin-left: 24%;
 }
