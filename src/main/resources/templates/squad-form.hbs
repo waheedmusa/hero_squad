@@ -4,8 +4,9 @@
 
 <!--form.hbs.-->
 {{#partial "content"}}
-    <h1>Create Your Squad!</h1>
-    <form action='/herosquad'>
+    <h1 class="title1">Welcome {{ name }}!</h1>
+    <h2 class="title1">Create a Squad.</h2>
+    <form class="forming" action='/hero_squad'>
         <div class="form-group">
             <label for="squad">Squad Name</label>
             <input id="squad" name="squad" class="form-control" type="text">
