@@ -10,8 +10,8 @@ public class App {
         staticFileLocation("/public");
 
         get("/", (request, response) -> { //request for route happens at this location
-            Map<String, Object> model = new HashMap<>(); // new model is made to store information
-            return new ModelAndView(model, "hero-form.hbs"); // assemble individual pieces and render
+            Map<String, Object> model = new HashMap<String, Object>(); // new model is made to store information
+            return new ModelAndView(model, "home.hbs"); // assemble individual pieces and render
         }, new HandlebarsTemplateEngine()); //
     }
 
