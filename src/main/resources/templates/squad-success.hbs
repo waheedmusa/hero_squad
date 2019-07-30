@@ -1,0 +1,13 @@
+{{#partial "content"}}
+    <h1 class="title1">Squad creation successful!</h1>
+
+    <ul class="list">
+        <li><a href="squad_heroes">Squad: {{ squad }}</a></li>
+        <li>Cause: {{ cause }}</li>
+        <li>No. of members: {{ size }}</li>
+    </ul>
+    <a href="/squad_form" class="badge badge-dark badge1" >Create a new Squad</a>
+    <a href="/hero_form" class="badge badge-dark badge2" >Create a new Hero</a>
+{{/partial}}
+
+{{> layout.hbs}}

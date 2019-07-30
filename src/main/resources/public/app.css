@@ -10,21 +10,34 @@ body{
    color: #639BBE;
    font-family: 'Poppins', sans-serif;
 }
+.title2{
+     text-align: center;
+     font-size: 70px;
+   color: #639BBE;
+   font-family: 'Poppins', sans-serif;
+}
 .forming{
 background-color: darkgrey;
     padding: 20px;
     border-radius: 5px;
-    margin-top: 10%;
     font-family: 'Poppins', sans-serif;
 }
 .badge1{
     line-height: 3;
     font-size: 20px;
-        margin-left: 22%;
-        margin-top: 12%;
+        margin-left: 23%;
+            padding: 20px;
+            color: #639BBE;
 }
 .badge2{
     line-height: 3;
     font-size: 20px;
-        margin-left: 24%;
+            margin-top: 22%;
+            margin-left: 14%;
+            padding: 20px;
+            color: #639BBE;
+}
+.list{
+font-size: 50px;
+color: #639BBE;
 }
